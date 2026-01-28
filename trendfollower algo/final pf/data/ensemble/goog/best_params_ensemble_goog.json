@@ -1,0 +1,8 @@
+{
+    "entry_logic": "Option B (enter on (1,1) or (1,0)/(0,1); block 1/-1 conflicts)",
+    "exit_logic": "Veto (-1 from either) OR both 0",
+    "source_parameters": {
+        "3EMA_params": "best_params_3ema_goog.json",
+        "MACD_params": "best_params_macd_goog.json"
+    }
+}

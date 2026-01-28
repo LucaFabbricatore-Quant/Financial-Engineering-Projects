@@ -1,0 +1,12 @@
+{
+    "total_return": 27.86804753994292,
+    "annual_return": 0.8466856786089432,
+    "volatility": 0.42582658862771494,
+    "sharpe_ratio": 1.6517021281457152,
+    "max_drawdown": -0.41791653947110985,
+    "calmar_ratio": 2.025968342101171,
+    "win_rate": 58.490566037735846,
+    "total_trades": 53,
+    "profit_factor": 4.455089758004289,
+    "expectancy": 0.08043154242283325
+}

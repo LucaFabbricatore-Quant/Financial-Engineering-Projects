@@ -1,0 +1,11 @@
+{
+    "strategy_name": "Ensemble MACD + Bollinger Bands (Hybrid)",
+    "ticker": "AAPL",
+    "entry_logic": "Hybrid OR: Enter Long if (MACD == 1 [Trend]) OR (BB == 1 [Panic Dip])",
+    "exit_logic": "Consensus Exit: Exit only when BOTH strategies stop signaling Long. (Trend ends AND Price recovers to Mean)",
+    "stop_loss": "5% (Hard Stop)",
+    "source_parameters": {
+        "MACD_params_file": "best_params_macd_aapl.json",
+        "BB_params_file": "best_params_bb_aapl.json"
+    }
+}
