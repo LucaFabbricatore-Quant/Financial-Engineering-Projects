@@ -24,4 +24,4 @@ The system is designed for a **semi-automatic operational workflow**:
 ## Technical Stack
 **Language:** Python 
 * **Core Libraries:** Pandas, NumPy (Data Processing), TA-Lib/Pandas_TA (Technical Analysis).
-*Skills Demonstrated:** Trend Following, Momentum Strategies, Portfolio Optimization, Hyperparameter Tuning[cite: 22, 23, 26].
+*Skills Demonstrated:** Trend Following, Momentum Strategies, Portfolio Optimization, Hyperparameter Tuning.
