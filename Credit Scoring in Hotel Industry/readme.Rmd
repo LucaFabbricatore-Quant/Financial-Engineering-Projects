@@ -1,8 +1,3 @@
----
-title: "readme"
-output: html_document
----
-
 # Comparative Analysis for Credit Risk Scoring in the Hotel Industry
 
 ## Overview
@@ -21,4 +16,5 @@ The project requires the following R libraries:
 * `neuralnet` and `caret` for model training and evaluation.
 * `FactoMineR` for Principal Component Analysis.
 * `ROCR` for performance visualization and metrics.
+
 * `openxlsx` and `readxl` for data management.
