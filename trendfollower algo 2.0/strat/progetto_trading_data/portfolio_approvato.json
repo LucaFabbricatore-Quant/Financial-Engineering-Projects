@@ -1,0 +1,1831 @@
+{
+    "AAPL": {
+        "MACD Normale (Top2)": {
+            "Dati_Configurazione": {
+                "tipo_file": "macd_normale",
+                "params": [
+                    [
+                        4,
+                        72,
+                        80
+                    ],
+                    [
+                        4,
+                        64,
+                        90
+                    ]
+                ]
+            },
+            "Cluster": "equities_cfd",
+            "Sharpe_IS_Approvato": 1.7049836498424036,
+            "Sharpe_OOS_Approvato": 1.0111969795315363,
+            "CAGR_OOS_Approvato": 0.1497403240333257,
+            "MaxDD_OOS_Approvato": -0.194289151522465
+        }
+    },
+    "ADAUSD": {
+        "COMBO 3: [MACD Normale + Donchian]": {
+            "Dati_Configurazione": {
+                "tipo_file": "hybrid_macdn_donch",
+                "params_a": [
+                    [
+                        4,
+                        52,
+                        50
+                    ],
+                    [
+                        18,
+                        52,
+                        95
+                    ]
+                ],
+                "params_b": [
+                    [
+                        50,
+                        5
+                    ]
+                ]
+            },
+            "Cluster": "crypto_cfd",
+            "Sharpe_IS_Approvato": 1.6447700744421632,
+            "Sharpe_OOS_Approvato": 0.95576375728476,
+            "CAGR_OOS_Approvato": 0.3748143947391209,
+            "MaxDD_OOS_Approvato": -0.5315387845923608
+        }
+    },
+    "AIRF": {
+        "COMBO 2: [3EMA + MACD Zero-Cross]": {
+            "Dati_Configurazione": {
+                "tipo_file": "hybrid_3ema_macdz",
+                "params_a": [
+                    [
+                        10,
+                        92,
+                        105
+                    ],
+                    [
+                        10,
+                        96,
+                        140
+                    ],
+                    [
+                        6,
+                        96,
+                        120
+                    ]
+                ],
+                "params_b": [
+                    [
+                        4,
+                        16,
+                        50
+                    ],
+                    [
+                        4,
+                        36,
+                        15
+                    ]
+                ]
+            },
+            "Cluster": "equities_cfd",
+            "Sharpe_IS_Approvato": 0.8543381923759233,
+            "Sharpe_OOS_Approvato": 1.0001557500363591,
+            "CAGR_OOS_Approvato": 0.13029289853921555,
+            "MaxDD_OOS_Approvato": -0.14273376066325882
+        }
+    },
+    "ALGUSD": {
+        "MACD Zero-Cross(T2)": {
+            "Dati_Configurazione": {
+                "tipo_file": "macd_zerocross",
+                "params": [
+                    [
+                        8,
+                        68,
+                        45
+                    ],
+                    [
+                        14,
+                        72,
+                        30
+                    ]
+                ]
+            },
+            "Cluster": "crypto_cfd",
+            "Sharpe_IS_Approvato": 0.8220456955479554,
+            "Sharpe_OOS_Approvato": 1.0191187861541275,
+            "CAGR_OOS_Approvato": 0.5392352802372182,
+            "MaxDD_OOS_Approvato": -0.5398854855695284
+        }
+    },
+    "ALVG": {
+        "COMBO 1: [3EMA + MACD Normale]": {
+            "Dati_Configurazione": {
+                "tipo_file": "hybrid_3ema_macdn",
+                "params_a": [
+                    [
+                        4,
+                        32,
+                        135
+                    ],
+                    [
+                        4,
+                        32,
+                        170
+                    ],
+                    [
+                        4,
+                        48,
+                        140
+                    ]
+                ],
+                "params_b": [
+                    [
+                        4,
+                        20,
+                        5
+                    ],
+                    [
+                        4,
+                        84,
+                        20
+                    ]
+                ]
+            },
+            "Cluster": "equities_cfd",
+            "Sharpe_IS_Approvato": 0.9243375357197996,
+            "Sharpe_OOS_Approvato": 1.5848614614876453,
+            "CAGR_OOS_Approvato": 0.18791133507234759,
+            "MaxDD_OOS_Approvato": -0.10608900464248348
+        }
+    },
+    "AMD": {
+        "COMBO 2: [3EMA + MACD Zero-Cross]": {
+            "Dati_Configurazione": {
+                "tipo_file": "hybrid_3ema_macdz",
+                "params_a": [
+                    [
+                        12,
+                        68,
+                        125
+                    ],
+                    [
+                        10,
+                        72,
+                        110
+                    ],
+                    [
+                        8,
+                        84,
+                        100
+                    ]
+                ],
+                "params_b": [
+                    [
+                        8,
+                        28,
+                        5
+                    ],
+                    [
+                        4,
+                        16,
+                        20
+                    ]
+                ]
+            },
+            "Cluster": "equities_cfd",
+            "Sharpe_IS_Approvato": 1.4289034692544402,
+            "Sharpe_OOS_Approvato": 1.3929014045034387,
+            "CAGR_OOS_Approvato": 0.487465173483862,
+            "MaxDD_OOS_Approvato": -0.270379923399495
+        }
+    },
+    "ARM": {
+        "COMBO 5: [3EMA + Donchian]": {
+            "Dati_Configurazione": {
+                "tipo_file": "hybrid_3ema_donch",
+                "params_a": [
+                    [
+                        8,
+                        20,
+                        100
+                    ],
+                    [
+                        8,
+                        20,
+                        165
+                    ],
+                    [
+                        4,
+                        20,
+                        210
+                    ]
+                ],
+                "params_b": [
+                    [
+                        25,
+                        20
+                    ]
+                ]
+            },
+            "Cluster": "equities_cfd",
+            "Sharpe_IS_Approvato": 1.352067706496802,
+            "Sharpe_OOS_Approvato": 1.9610123176759517,
+            "CAGR_OOS_Approvato": 1.77691037766476,
+            "MaxDD_OOS_Approvato": -0.28162152239925015
+        }
+    },
+    "ASML": {
+        "3EMA (Ensemble)": {
+            "Dati_Configurazione": {
+                "tipo_file": "3ema",
+                "params": [
+                    [
+                        10,
+                        52,
+                        220
+                    ],
+                    [
+                        4,
+                        44,
+                        140
+                    ],
+                    [
+                        4,
+                        44,
+                        160
+                    ]
+                ]
+            },
+            "Cluster": "equities_cfd",
+            "Sharpe_IS_Approvato": 1.243910281854916,
+            "Sharpe_OOS_Approvato": 1.0464650240480957,
+            "CAGR_OOS_Approvato": 0.2921384872713837,
+            "MaxDD_OOS_Approvato": -0.33851777657753573
+        }
+    },
+    "AVGO": {
+        "COMBO 5: [3EMA + Donchian]": {
+            "Dati_Configurazione": {
+                "tipo_file": "hybrid_3ema_donch",
+                "params_a": [
+                    [
+                        30,
+                        32,
+                        235
+                    ],
+                    [
+                        28,
+                        72,
+                        225
+                    ],
+                    [
+                        22,
+                        60,
+                        205
+                    ]
+                ],
+                "params_b": [
+                    [
+                        40,
+                        15
+                    ]
+                ]
+            },
+            "Cluster": "equities_cfd",
+            "Sharpe_IS_Approvato": 1.1225383527242767,
+            "Sharpe_OOS_Approvato": 0.9218318350904079,
+            "CAGR_OOS_Approvato": 0.2965921694849416,
+            "MaxDD_OOS_Approvato": -0.21054801182809005
+        }
+    },
+    "AZN": {
+        "COMBO 4: [MACD Zero-Cross + Donchian]": {
+            "Dati_Configurazione": {
+                "tipo_file": "hybrid_macdz_donch",
+                "params_a": [
+                    [
+                        18,
+                        64,
+                        45
+                    ],
+                    [
+                        28,
+                        48,
+                        40
+                    ]
+                ],
+                "params_b": [
+                    [
+                        15,
+                        10
+                    ]
+                ]
+            },
+            "Cluster": "equities_cfd",
+            "Sharpe_IS_Approvato": 0.7808413493643885,
+            "Sharpe_OOS_Approvato": 0.4113400308693108,
+            "CAGR_OOS_Approvato": 0.048741175565654604,
+            "MaxDD_OOS_Approvato": -0.09740902491960887
+        }
+    },
+    "BA": {
+        "MACD Zero-Cross(T2)": {
+            "Dati_Configurazione": {
+                "tipo_file": "macd_zerocross",
+                "params": [
+                    [
+                        4,
+                        52,
+                        5
+                    ],
+                    [
+                        4,
+                        40,
+                        10
+                    ]
+                ]
+            },
+            "Cluster": "equities_cfd",
+            "Sharpe_IS_Approvato": 0.6676069162263217,
+            "Sharpe_OOS_Approvato": 0.9313161400542735,
+            "CAGR_OOS_Approvato": 0.12474677076939789,
+            "MaxDD_OOS_Approvato": -0.22832799016291275
+        }
+    },
+    "BABA": {
+        "COMBO 5: [3EMA + Donchian]": {
+            "Dati_Configurazione": {
+                "tipo_file": "hybrid_3ema_donch",
+                "params_a": [
+                    [
+                        4,
+                        80,
+                        230
+                    ],
+                    [
+                        4,
+                        80,
+                        190
+                    ],
+                    [
+                        4,
+                        84,
+                        210
+                    ]
+                ],
+                "params_b": [
+                    [
+                        15,
+                        5
+                    ]
+                ]
+            },
+            "Cluster": "equities_cfd",
+            "Sharpe_IS_Approvato": 0.5289134340650433,
+            "Sharpe_OOS_Approvato": 0.8465210451459894,
+            "CAGR_OOS_Approvato": 0.21431453444959225,
+            "MaxDD_OOS_Approvato": -0.21209002097473412
+        }
+    },
+    "BAC": {
+        "MACD Normale (Top2)": {
+            "Dati_Configurazione": {
+                "tipo_file": "macd_normale",
+                "params": [
+                    [
+                        54,
+                        96,
+                        40
+                    ],
+                    [
+                        54,
+                        92,
+                        55
+                    ]
+                ]
+            },
+            "Cluster": "equities_cfd",
+            "Sharpe_IS_Approvato": 1.1767072920109531,
+            "Sharpe_OOS_Approvato": 1.218960909546528,
+            "CAGR_OOS_Approvato": 0.15354904271216374,
+            "MaxDD_OOS_Approvato": -0.11151684275345036
+        }
+    },
+    "BMW": {
+        "COMBO 4: [MACD Zero-Cross + Donchian]": {
+            "Dati_Configurazione": {
+                "tipo_file": "hybrid_macdz_donch",
+                "params_a": [
+                    [
+                        6,
+                        16,
+                        55
+                    ],
+                    [
+                        8,
+                        16,
+                        5
+                    ]
+                ],
+                "params_b": [
+                    [
+                        45,
+                        5
+                    ]
+                ]
+            },
+            "Cluster": "equities_cfd",
+            "Sharpe_IS_Approvato": 0.7000872315930403,
+            "Sharpe_OOS_Approvato": 0.3200116644352321,
+            "CAGR_OOS_Approvato": 0.0362261319382311,
+            "MaxDD_OOS_Approvato": -0.12854517415703517
+        }
+    },
+    "BNBUSD": {
+        "COMBO 1: [3EMA + MACD Normale]": {
+            "Dati_Configurazione": {
+                "tipo_file": "hybrid_3ema_macdn",
+                "params_a": [
+                    [
+                        4,
+                        24,
+                        175
+                    ],
+                    [
+                        4,
+                        24,
+                        245
+                    ],
+                    [
+                        4,
+                        24,
+                        155
+                    ]
+                ],
+                "params_b": [
+                    [
+                        4,
+                        56,
+                        55
+                    ],
+                    [
+                        10,
+                        40,
+                        95
+                    ]
+                ]
+            },
+            "Cluster": "crypto_cfd",
+            "Sharpe_IS_Approvato": 1.9426040872436028,
+            "Sharpe_OOS_Approvato": 1.042243776117753,
+            "CAGR_OOS_Approvato": 0.40328055357751924,
+            "MaxDD_OOS_Approvato": -0.3114785483218995
+        }
+    },
+    "BTCUSD": {
+        "COMBO 2: [3EMA + MACD Zero-Cross]": {
+            "Dati_Configurazione": {
+                "tipo_file": "hybrid_3ema_macdz",
+                "params_a": [
+                    [
+                        10,
+                        40,
+                        115
+                    ],
+                    [
+                        8,
+                        32,
+                        125
+                    ],
+                    [
+                        16,
+                        20,
+                        140
+                    ]
+                ],
+                "params_b": [
+                    [
+                        20,
+                        40,
+                        95
+                    ],
+                    [
+                        18,
+                        44,
+                        85
+                    ]
+                ]
+            },
+            "Cluster": "crypto_cfd",
+            "Sharpe_IS_Approvato": 1.5509378516655183,
+            "Sharpe_OOS_Approvato": 1.1414907088283903,
+            "CAGR_OOS_Approvato": 0.35578598059816713,
+            "MaxDD_OOS_Approvato": -0.3262540565328848
+        }
+    },
+    "COFFEE.c": {
+        "MACD Zero-Cross(T2)": {
+            "Dati_Configurazione": {
+                "tipo_file": "macd_zerocross",
+                "params": [
+                    [
+                        4,
+                        72,
+                        5
+                    ],
+                    [
+                        4,
+                        84,
+                        10
+                    ]
+                ]
+            },
+            "Cluster": "cash_cfd",
+            "Sharpe_IS_Approvato": 1.489267144050853,
+            "Sharpe_OOS_Approvato": 0.8589496651786263,
+            "CAGR_OOS_Approvato": 0.07410588130302886,
+            "MaxDD_OOS_Approvato": -0.06785227715064236
+        }
+    },
+    "CSCO": {
+        "3EMA (Ensemble)": {
+            "Dati_Configurazione": {
+                "tipo_file": "3ema",
+                "params": [
+                    [
+                        22,
+                        60,
+                        215
+                    ],
+                    [
+                        22,
+                        60,
+                        190
+                    ],
+                    [
+                        24,
+                        60,
+                        235
+                    ]
+                ]
+            },
+            "Cluster": "equities_cfd",
+            "Sharpe_IS_Approvato": 0.48941961800308115,
+            "Sharpe_OOS_Approvato": 1.206072895636872,
+            "CAGR_OOS_Approvato": 0.2564540152845405,
+            "MaxDD_OOS_Approvato": -0.1633433703097292
+        }
+    },
+    "DBKGn": {
+        "COMBO 2: [3EMA + MACD Zero-Cross]": {
+            "Dati_Configurazione": {
+                "tipo_file": "hybrid_3ema_macdz",
+                "params_a": [
+                    [
+                        4,
+                        80,
+                        175
+                    ],
+                    [
+                        4,
+                        96,
+                        170
+                    ],
+                    [
+                        4,
+                        80,
+                        195
+                    ]
+                ],
+                "params_b": [
+                    [
+                        4,
+                        16,
+                        50
+                    ],
+                    [
+                        4,
+                        84,
+                        10
+                    ]
+                ]
+            },
+            "Cluster": "equities_cfd",
+            "Sharpe_IS_Approvato": 0.7071428527576856,
+            "Sharpe_OOS_Approvato": 1.301363903035768,
+            "CAGR_OOS_Approvato": 0.21776188308321798,
+            "MaxDD_OOS_Approvato": -0.11559211525481673
+        }
+    },
+    "DIS": {
+        "COMBO 2: [3EMA + MACD Zero-Cross]": {
+            "Dati_Configurazione": {
+                "tipo_file": "hybrid_3ema_macdz",
+                "params_a": [
+                    [
+                        10,
+                        32,
+                        150
+                    ],
+                    [
+                        10,
+                        32,
+                        170
+                    ],
+                    [
+                        12,
+                        40,
+                        140
+                    ]
+                ],
+                "params_b": [
+                    [
+                        4,
+                        56,
+                        5
+                    ],
+                    [
+                        4,
+                        40,
+                        5
+                    ]
+                ]
+            },
+            "Cluster": "equities_cfd",
+            "Sharpe_IS_Approvato": 0.752691511751201,
+            "Sharpe_OOS_Approvato": 0.9239486771741339,
+            "CAGR_OOS_Approvato": 0.09715203862821142,
+            "MaxDD_OOS_Approvato": -0.08494662207580911
+        }
+    },
+    "DOGEUSD": {
+        "COMBO 2: [3EMA + MACD Zero-Cross]": {
+            "Dati_Configurazione": {
+                "tipo_file": "hybrid_3ema_macdz",
+                "params_a": [
+                    [
+                        4,
+                        36,
+                        225
+                    ],
+                    [
+                        4,
+                        36,
+                        175
+                    ],
+                    [
+                        4,
+                        36,
+                        150
+                    ]
+                ],
+                "params_b": [
+                    [
+                        8,
+                        28,
+                        55
+                    ],
+                    [
+                        6,
+                        24,
+                        65
+                    ]
+                ]
+            },
+            "Cluster": "crypto_cfd",
+            "Sharpe_IS_Approvato": 1.2160318813665143,
+            "Sharpe_OOS_Approvato": 1.0795229476199446,
+            "CAGR_OOS_Approvato": 0.6359257340415605,
+            "MaxDD_OOS_Approvato": -0.6399132051205486
+        }
+    },
+    "ETHUSD": {
+        "MACD Normale (Top2)": {
+            "Dati_Configurazione": {
+                "tipo_file": "macd_normale",
+                "params": [
+                    [
+                        10,
+                        56,
+                        55
+                    ],
+                    [
+                        38,
+                        76,
+                        5
+                    ]
+                ]
+            },
+            "Cluster": "crypto_cfd",
+            "Sharpe_IS_Approvato": 1.6447717356755653,
+            "Sharpe_OOS_Approvato": 0.9449540862525088,
+            "CAGR_OOS_Approvato": 0.3741041742366302,
+            "MaxDD_OOS_Approvato": -0.3893132936719731
+        }
+    },
+    "FDX": {
+        "MACD Zero-Cross(T2)": {
+            "Dati_Configurazione": {
+                "tipo_file": "macd_zerocross",
+                "params": [
+                    [
+                        24,
+                        52,
+                        25
+                    ],
+                    [
+                        22,
+                        44,
+                        90
+                    ]
+                ]
+            },
+            "Cluster": "equities_cfd",
+            "Sharpe_IS_Approvato": 0.9039949726959465,
+            "Sharpe_OOS_Approvato": 1.0081083445641543,
+            "CAGR_OOS_Approvato": 0.18174031518562184,
+            "MaxDD_OOS_Approvato": -0.15901062029595392
+        }
+    },
+    "FETUSD": {
+        "COMBO 4: [MACD Zero-Cross + Donchian]": {
+            "Dati_Configurazione": {
+                "tipo_file": "hybrid_macdz_donch",
+                "params_a": [
+                    [
+                        20,
+                        44,
+                        70
+                    ],
+                    [
+                        22,
+                        68,
+                        45
+                    ]
+                ],
+                "params_b": [
+                    [
+                        15,
+                        10
+                    ]
+                ]
+            },
+            "Cluster": "crypto_cfd",
+            "Sharpe_IS_Approvato": 1.5171831409245875,
+            "Sharpe_OOS_Approvato": 0.826926281795372,
+            "CAGR_OOS_Approvato": 0.42426876983984085,
+            "MaxDD_OOS_Approvato": -0.7533854374231553
+        }
+    },
+    "GALUSD": {
+        "COMBO 4: [MACD Zero-Cross + Donchian]": {
+            "Dati_Configurazione": {
+                "tipo_file": "hybrid_macdz_donch",
+                "params_a": [
+                    [
+                        10,
+                        40,
+                        5
+                    ],
+                    [
+                        4,
+                        52,
+                        5
+                    ]
+                ],
+                "params_b": [
+                    [
+                        25,
+                        5
+                    ]
+                ]
+            },
+            "Cluster": "crypto_cfd",
+            "Sharpe_IS_Approvato": 0.6891445139856417,
+            "Sharpe_OOS_Approvato": 1.3032164104680737,
+            "CAGR_OOS_Approvato": 0.8893906839574646,
+            "MaxDD_OOS_Approvato": -0.24507064792072583
+        }
+    },
+    "GE": {
+        "COMBO 4: [MACD Zero-Cross + Donchian]": {
+            "Dati_Configurazione": {
+                "tipo_file": "hybrid_macdz_donch",
+                "params_a": [
+                    [
+                        8,
+                        48,
+                        5
+                    ],
+                    [
+                        4,
+                        52,
+                        15
+                    ]
+                ],
+                "params_b": [
+                    [
+                        25,
+                        15
+                    ]
+                ]
+            },
+            "Cluster": "equities_cfd",
+            "Sharpe_IS_Approvato": 0.8887391115710048,
+            "Sharpe_OOS_Approvato": 1.7214835843421699,
+            "CAGR_OOS_Approvato": 0.3264564000104302,
+            "MaxDD_OOS_Approvato": -0.11716180513039431
+        }
+    },
+    "GM": {
+        "MACD Normale (Top2)": {
+            "Dati_Configurazione": {
+                "tipo_file": "macd_normale",
+                "params": [
+                    [
+                        46,
+                        88,
+                        70
+                    ],
+                    [
+                        54,
+                        96,
+                        30
+                    ]
+                ]
+            },
+            "Cluster": "equities_cfd",
+            "Sharpe_IS_Approvato": 0.8224994894689596,
+            "Sharpe_OOS_Approvato": 1.1950762695128825,
+            "CAGR_OOS_Approvato": 0.29022050478804795,
+            "MaxDD_OOS_Approvato": -0.18962980007237956
+        }
+    },
+    "GOOG": {
+        "COMBO 2: [3EMA + MACD Zero-Cross]": {
+            "Dati_Configurazione": {
+                "tipo_file": "hybrid_3ema_macdz",
+                "params_a": [
+                    [
+                        4,
+                        76,
+                        140
+                    ],
+                    [
+                        10,
+                        68,
+                        110
+                    ],
+                    [
+                        4,
+                        92,
+                        135
+                    ]
+                ],
+                "params_b": [
+                    [
+                        6,
+                        16,
+                        65
+                    ],
+                    [
+                        6,
+                        16,
+                        50
+                    ]
+                ]
+            },
+            "Cluster": "equities_cfd",
+            "Sharpe_IS_Approvato": 1.043655504957537,
+            "Sharpe_OOS_Approvato": 1.4747831110684548,
+            "CAGR_OOS_Approvato": 0.2880157353791828,
+            "MaxDD_OOS_Approvato": -0.09799848355199121
+        }
+    },
+    "IBE": {
+        "MACD Zero-Cross(T2)": {
+            "Dati_Configurazione": {
+                "tipo_file": "macd_zerocross",
+                "params": [
+                    [
+                        4,
+                        28,
+                        70
+                    ],
+                    [
+                        8,
+                        16,
+                        95
+                    ]
+                ]
+            },
+            "Cluster": "equities_cfd",
+            "Sharpe_IS_Approvato": 1.1880095632409444,
+            "Sharpe_OOS_Approvato": 1.2652136178007536,
+            "CAGR_OOS_Approvato": 0.13703003838800432,
+            "MaxDD_OOS_Approvato": -0.11799829008287419
+        }
+    },
+    "IBM": {
+        "MACD Normale (Top2)": {
+            "Dati_Configurazione": {
+                "tipo_file": "macd_normale",
+                "params": [
+                    [
+                        8,
+                        24,
+                        5
+                    ],
+                    [
+                        8,
+                        16,
+                        15
+                    ]
+                ]
+            },
+            "Cluster": "equities_cfd",
+            "Sharpe_IS_Approvato": 0.8516642273174697,
+            "Sharpe_OOS_Approvato": 1.2439525539802319,
+            "CAGR_OOS_Approvato": 0.2876063663839048,
+            "MaxDD_OOS_Approvato": -0.2845065727689255
+        }
+    },
+    "JNJ": {
+        "MACD Normale (Top2)": {
+            "Dati_Configurazione": {
+                "tipo_file": "macd_normale",
+                "params": [
+                    [
+                        4,
+                        72,
+                        40
+                    ],
+                    [
+                        10,
+                        40,
+                        65
+                    ]
+                ]
+            },
+            "Cluster": "equities_cfd",
+            "Sharpe_IS_Approvato": 0.931044878037267,
+            "Sharpe_OOS_Approvato": 1.5709643129242103,
+            "CAGR_OOS_Approvato": 0.1891085529476466,
+            "MaxDD_OOS_Approvato": -0.0793525192856589
+        }
+    },
+    "JPM": {
+        "COMBO 1: [3EMA + MACD Normale]": {
+            "Dati_Configurazione": {
+                "tipo_file": "hybrid_3ema_macdn",
+                "params_a": [
+                    [
+                        16,
+                        96,
+                        125
+                    ],
+                    [
+                        20,
+                        72,
+                        115
+                    ],
+                    [
+                        14,
+                        96,
+                        145
+                    ]
+                ],
+                "params_b": [
+                    [
+                        42,
+                        76,
+                        55
+                    ],
+                    [
+                        44,
+                        88,
+                        40
+                    ]
+                ]
+            },
+            "Cluster": "equities_cfd",
+            "Sharpe_IS_Approvato": 0.9495955229683132,
+            "Sharpe_OOS_Approvato": 1.2420441374522453,
+            "CAGR_OOS_Approvato": 0.15659138726447086,
+            "MaxDD_OOS_Approvato": -0.13294547890118932
+        }
+    },
+    "KO": {
+        "COMBO 4: [MACD Zero-Cross + Donchian]": {
+            "Dati_Configurazione": {
+                "tipo_file": "hybrid_macdz_donch",
+                "params_a": [
+                    [
+                        4,
+                        48,
+                        30
+                    ],
+                    [
+                        14,
+                        36,
+                        80
+                    ]
+                ],
+                "params_b": [
+                    [
+                        40,
+                        35
+                    ]
+                ]
+            },
+            "Cluster": "equities_cfd",
+            "Sharpe_IS_Approvato": 0.781556768780742,
+            "Sharpe_OOS_Approvato": 1.0438923560139253,
+            "CAGR_OOS_Approvato": 0.10289756552430052,
+            "MaxDD_OOS_Approvato": -0.114132306570635
+        }
+    },
+    "LMT": {
+        "MACD Zero-Cross(T2)": {
+            "Dati_Configurazione": {
+                "tipo_file": "macd_zerocross",
+                "params": [
+                    [
+                        16,
+                        48,
+                        35
+                    ],
+                    [
+                        28,
+                        48,
+                        25
+                    ]
+                ]
+            },
+            "Cluster": "equities_cfd",
+            "Sharpe_IS_Approvato": 1.0679285160599938,
+            "Sharpe_OOS_Approvato": 1.214389988180636,
+            "CAGR_OOS_Approvato": 0.14547621002902722,
+            "MaxDD_OOS_Approvato": -0.069578988117374
+        }
+    },
+    "LNKUSD": {
+        "COMBO 1: [3EMA + MACD Normale]": {
+            "Dati_Configurazione": {
+                "tipo_file": "hybrid_3ema_macdn",
+                "params_a": [
+                    [
+                        16,
+                        20,
+                        100
+                    ],
+                    [
+                        26,
+                        96,
+                        215
+                    ],
+                    [
+                        26,
+                        96,
+                        195
+                    ]
+                ],
+                "params_b": [
+                    [
+                        4,
+                        56,
+                        45
+                    ],
+                    [
+                        4,
+                        44,
+                        55
+                    ]
+                ]
+            },
+            "Cluster": "crypto_cfd",
+            "Sharpe_IS_Approvato": 1.375987015284718,
+            "Sharpe_OOS_Approvato": 0.8847828659024385,
+            "CAGR_OOS_Approvato": 0.4190972728092841,
+            "MaxDD_OOS_Approvato": -0.5085157594083908
+        }
+    },
+    "MCD": {
+        "COMBO 2: [3EMA + MACD Zero-Cross]": {
+            "Dati_Configurazione": {
+                "tipo_file": "hybrid_3ema_macdz",
+                "params_a": [
+                    [
+                        14,
+                        28,
+                        120
+                    ],
+                    [
+                        22,
+                        24,
+                        210
+                    ],
+                    [
+                        16,
+                        28,
+                        245
+                    ]
+                ],
+                "params_b": [
+                    [
+                        24,
+                        48,
+                        15
+                    ],
+                    [
+                        20,
+                        40,
+                        25
+                    ]
+                ]
+            },
+            "Cluster": "equities_cfd",
+            "Sharpe_IS_Approvato": 1.2690905707762938,
+            "Sharpe_OOS_Approvato": 0.6002114244475749,
+            "CAGR_OOS_Approvato": 0.052953788537501545,
+            "MaxDD_OOS_Approvato": -0.08397443267058723
+        }
+    },
+    "META": {
+        "MACD Normale (Top2)": {
+            "Dati_Configurazione": {
+                "tipo_file": "macd_normale",
+                "params": [
+                    [
+                        54,
+                        56,
+                        5
+                    ],
+                    [
+                        50,
+                        60,
+                        35
+                    ]
+                ]
+            },
+            "Cluster": "equities_cfd",
+            "Sharpe_IS_Approvato": 1.0945337947671274,
+            "Sharpe_OOS_Approvato": 1.4998341142990934,
+            "CAGR_OOS_Approvato": 0.34156182731440343,
+            "MaxDD_OOS_Approvato": -0.1623863231179081
+        }
+    },
+    "MSFT": {
+        "COMBO 1: [3EMA + MACD Normale]": {
+            "Dati_Configurazione": {
+                "tipo_file": "hybrid_3ema_macdn",
+                "params_a": [
+                    [
+                        16,
+                        48,
+                        160
+                    ],
+                    [
+                        4,
+                        96,
+                        130
+                    ],
+                    [
+                        16,
+                        48,
+                        120
+                    ]
+                ],
+                "params_b": [
+                    [
+                        18,
+                        20,
+                        70
+                    ],
+                    [
+                        54,
+                        56,
+                        5
+                    ]
+                ]
+            },
+            "Cluster": "equities_cfd",
+            "Sharpe_IS_Approvato": 1.1196154933063172,
+            "Sharpe_OOS_Approvato": 0.37267619267320157,
+            "CAGR_OOS_Approvato": 0.0446539595818185,
+            "MaxDD_OOS_Approvato": -0.1964733949984942
+        }
+    },
+    "MSTR": {
+        "COMBO 5: [3EMA + Donchian]": {
+            "Dati_Configurazione": {
+                "tipo_file": "hybrid_3ema_donch",
+                "params_a": [
+                    [
+                        8,
+                        20,
+                        200
+                    ],
+                    [
+                        38,
+                        68,
+                        145
+                    ],
+                    [
+                        6,
+                        24,
+                        165
+                    ]
+                ],
+                "params_b": [
+                    [
+                        70,
+                        5
+                    ]
+                ]
+            },
+            "Cluster": "equities_cfd",
+            "Sharpe_IS_Approvato": 0.8186260805757182,
+            "Sharpe_OOS_Approvato": 1.331596241129176,
+            "CAGR_OOS_Approvato": 0.770502495596638,
+            "MaxDD_OOS_Approvato": -0.3692091871729394
+        }
+    },
+    "NFLX": {
+        "COMBO 1: [3EMA + MACD Normale]": {
+            "Dati_Configurazione": {
+                "tipo_file": "hybrid_3ema_macdn",
+                "params_a": [
+                    [
+                        32,
+                        56,
+                        180
+                    ],
+                    [
+                        22,
+                        76,
+                        240
+                    ],
+                    [
+                        32,
+                        56,
+                        160
+                    ]
+                ],
+                "params_b": [
+                    [
+                        60,
+                        88,
+                        90
+                    ],
+                    [
+                        52,
+                        76,
+                        95
+                    ]
+                ]
+            },
+            "Cluster": "equities_cfd",
+            "Sharpe_IS_Approvato": 0.868169318443012,
+            "Sharpe_OOS_Approvato": 1.0110907181243163,
+            "CAGR_OOS_Approvato": 0.20440261530268877,
+            "MaxDD_OOS_Approvato": -0.22160512961642193
+        }
+    },
+    "NVDA": {
+        "3EMA (Ensemble)": {
+            "Dati_Configurazione": {
+                "tipo_file": "3ema",
+                "params": [
+                    [
+                        4,
+                        64,
+                        220
+                    ],
+                    [
+                        4,
+                        64,
+                        240
+                    ],
+                    [
+                        4,
+                        28,
+                        215
+                    ]
+                ]
+            },
+            "Cluster": "equities_cfd",
+            "Sharpe_IS_Approvato": 1.576853056760686,
+            "Sharpe_OOS_Approvato": 1.0365586915402292,
+            "CAGR_OOS_Approvato": 0.3612777085780443,
+            "MaxDD_OOS_Approvato": -0.3906623423388506
+        }
+    },
+    "PLTR": {
+        "3EMA (Ensemble)": {
+            "Dati_Configurazione": {
+                "tipo_file": "3ema",
+                "params": [
+                    [
+                        14,
+                        96,
+                        170
+                    ],
+                    [
+                        20,
+                        96,
+                        125
+                    ],
+                    [
+                        20,
+                        84,
+                        160
+                    ]
+                ]
+            },
+            "Cluster": "equities_cfd",
+            "Sharpe_IS_Approvato": 0.49584648094250144,
+            "Sharpe_OOS_Approvato": 1.8523254343774418,
+            "CAGR_OOS_Approvato": 0.8329730643972053,
+            "MaxDD_OOS_Approvato": -0.2847365286172827
+        }
+    },
+    "QCOM": {
+        "MACD Normale (Top2)": {
+            "Dati_Configurazione": {
+                "tipo_file": "macd_normale",
+                "params": [
+                    [
+                        48,
+                        72,
+                        15
+                    ],
+                    [
+                        46,
+                        64,
+                        25
+                    ]
+                ]
+            },
+            "Cluster": "equities_cfd",
+            "Sharpe_IS_Approvato": 1.0334771842028334,
+            "Sharpe_OOS_Approvato": 0.8089681604984704,
+            "CAGR_OOS_Approvato": 0.23091221078231117,
+            "MaxDD_OOS_Approvato": -0.36672463354585444
+        }
+    },
+    "RTX": {
+        "COMBO 1: [3EMA + MACD Normale]": {
+            "Dati_Configurazione": {
+                "tipo_file": "hybrid_3ema_macdn",
+                "params_a": [
+                    [
+                        28,
+                        92,
+                        105
+                    ],
+                    [
+                        38,
+                        72,
+                        115
+                    ],
+                    [
+                        20,
+                        96,
+                        145
+                    ]
+                ],
+                "params_b": [
+                    [
+                        18,
+                        28,
+                        5
+                    ],
+                    [
+                        40,
+                        60,
+                        75
+                    ]
+                ]
+            },
+            "Cluster": "equities_cfd",
+            "Sharpe_IS_Approvato": 0.676606501981202,
+            "Sharpe_OOS_Approvato": 1.089081977149565,
+            "CAGR_OOS_Approvato": 0.1418609293818316,
+            "MaxDD_OOS_Approvato": -0.10920436843009579
+        }
+    },
+    "SAN": {
+        "COMBO 3: [MACD Normale + Donchian]": {
+            "Dati_Configurazione": {
+                "tipo_file": "hybrid_macdn_donch",
+                "params_a": [
+                    [
+                        38,
+                        60,
+                        40
+                    ],
+                    [
+                        6,
+                        16,
+                        5
+                    ]
+                ],
+                "params_b": [
+                    [
+                        30,
+                        25
+                    ]
+                ]
+            },
+            "Cluster": "equities_cfd",
+            "Sharpe_IS_Approvato": 0.7439580444484879,
+            "Sharpe_OOS_Approvato": 1.3375620129215768,
+            "CAGR_OOS_Approvato": 0.26460085902201347,
+            "MaxDD_OOS_Approvato": -0.1335444289699985
+        }
+    },
+    "SBUX": {
+        "COMBO 3: [MACD Normale + Donchian]": {
+            "Dati_Configurazione": {
+                "tipo_file": "hybrid_macdn_donch",
+                "params_a": [
+                    [
+                        50,
+                        52,
+                        15
+                    ],
+                    [
+                        12,
+                        36,
+                        35
+                    ]
+                ],
+                "params_b": [
+                    [
+                        30,
+                        25
+                    ]
+                ]
+            },
+            "Cluster": "equities_cfd",
+            "Sharpe_IS_Approvato": 0.8610825683268927,
+            "Sharpe_OOS_Approvato": 0.5736558452602228,
+            "CAGR_OOS_Approvato": 0.09296583031913097,
+            "MaxDD_OOS_Approvato": -0.22127586533805907
+        }
+    },
+    "SIEGn": {
+        "COMBO 2: [3EMA + MACD Zero-Cross]": {
+            "Dati_Configurazione": {
+                "tipo_file": "hybrid_3ema_macdz",
+                "params_a": [
+                    [
+                        10,
+                        84,
+                        135
+                    ],
+                    [
+                        10,
+                        72,
+                        125
+                    ],
+                    [
+                        4,
+                        96,
+                        185
+                    ]
+                ],
+                "params_b": [
+                    [
+                        4,
+                        60,
+                        60
+                    ],
+                    [
+                        4,
+                        60,
+                        45
+                    ]
+                ]
+            },
+            "Cluster": "equities_cfd",
+            "Sharpe_IS_Approvato": 0.9546558844024325,
+            "Sharpe_OOS_Approvato": 0.8310423165350533,
+            "CAGR_OOS_Approvato": 0.13807599273359172,
+            "MaxDD_OOS_Approvato": -0.10329648714900269
+        }
+    },
+    "SNOW": {
+        "COMBO 1: [3EMA + MACD Normale]": {
+            "Dati_Configurazione": {
+                "tipo_file": "hybrid_3ema_macdn",
+                "params_a": [
+                    [
+                        20,
+                        32,
+                        125
+                    ],
+                    [
+                        16,
+                        40,
+                        135
+                    ],
+                    [
+                        20,
+                        32,
+                        145
+                    ]
+                ],
+                "params_b": [
+                    [
+                        10,
+                        92,
+                        80
+                    ],
+                    [
+                        10,
+                        80,
+                        90
+                    ]
+                ]
+            },
+            "Cluster": "equities_cfd",
+            "Sharpe_IS_Approvato": 0.9407144374678684,
+            "Sharpe_OOS_Approvato": 0.9185979466953474,
+            "CAGR_OOS_Approvato": 0.38025212002325004,
+            "MaxDD_OOS_Approvato": -0.2515484073464904
+        }
+    },
+    "SOYBEAN.c": {
+        "MACD Zero-Cross(T2)": {
+            "Dati_Configurazione": {
+                "tipo_file": "macd_zerocross",
+                "params": [
+                    [
+                        14,
+                        24,
+                        5
+                    ],
+                    [
+                        10,
+                        36,
+                        5
+                    ]
+                ]
+            },
+            "Cluster": "cash_cfd",
+            "Sharpe_IS_Approvato": 0.7645318726699762,
+            "Sharpe_OOS_Approvato": 1.3805704140905735,
+            "CAGR_OOS_Approvato": 0.11331443283866993,
+            "MaxDD_OOS_Approvato": -0.057682977265307876
+        }
+    },
+    "T": {
+        "COMBO 1: [3EMA + MACD Normale]": {
+            "Dati_Configurazione": {
+                "tipo_file": "hybrid_3ema_macdn",
+                "params_a": [
+                    [
+                        4,
+                        44,
+                        185
+                    ],
+                    [
+                        4,
+                        44,
+                        205
+                    ],
+                    [
+                        4,
+                        44,
+                        135
+                    ]
+                ],
+                "params_b": [
+                    [
+                        28,
+                        68,
+                        45
+                    ],
+                    [
+                        32,
+                        60,
+                        55
+                    ]
+                ]
+            },
+            "Cluster": "equities_cfd",
+            "Sharpe_IS_Approvato": 0.6377632131481746,
+            "Sharpe_OOS_Approvato": 1.0159034639492988,
+            "CAGR_OOS_Approvato": 0.1829100356217066,
+            "MaxDD_OOS_Approvato": -0.11676854055357758
+        }
+    },
+    "US100.cash": {
+        "COMBO 2: [3EMA + MACD Zero-Cross]": {
+            "Dati_Configurazione": {
+                "tipo_file": "hybrid_3ema_macdz",
+                "params_a": [
+                    [
+                        4,
+                        96,
+                        125
+                    ],
+                    [
+                        4,
+                        96,
+                        145
+                    ],
+                    [
+                        4,
+                        96,
+                        105
+                    ]
+                ],
+                "params_b": [
+                    [
+                        4,
+                        16,
+                        85
+                    ],
+                    [
+                        4,
+                        16,
+                        70
+                    ]
+                ]
+            },
+            "Cluster": "cash_cfd",
+            "Sharpe_IS_Approvato": 0.9947132224406393,
+            "Sharpe_OOS_Approvato": 1.377399199921427,
+            "CAGR_OOS_Approvato": 0.16184743582944439,
+            "MaxDD_OOS_Approvato": -0.11504676944909391
+        }
+    },
+    "US30.cash": {
+        "3EMA (Ensemble)": {
+            "Dati_Configurazione": {
+                "tipo_file": "3ema",
+                "params": [
+                    [
+                        18,
+                        80,
+                        230
+                    ],
+                    [
+                        26,
+                        56,
+                        145
+                    ],
+                    [
+                        20,
+                        76,
+                        215
+                    ]
+                ]
+            },
+            "Cluster": "cash_cfd",
+            "Sharpe_IS_Approvato": 0.5488856935888784,
+            "Sharpe_OOS_Approvato": 1.2730093892921637,
+            "CAGR_OOS_Approvato": 0.13192898178280843,
+            "MaxDD_OOS_Approvato": -0.09125242251736514
+        }
+    },
+    "US500.cash": {
+        "3EMA (Ensemble)": {
+            "Dati_Configurazione": {
+                "tipo_file": "3ema",
+                "params": [
+                    [
+                        8,
+                        88,
+                        205
+                    ],
+                    [
+                        10,
+                        84,
+                        235
+                    ],
+                    [
+                        14,
+                        72,
+                        190
+                    ]
+                ]
+            },
+            "Cluster": "cash_cfd",
+            "Sharpe_IS_Approvato": 0.9519164428104633,
+            "Sharpe_OOS_Approvato": 1.6686475816637751,
+            "CAGR_OOS_Approvato": 0.18892838996729355,
+            "MaxDD_OOS_Approvato": -0.08405600526835297
+        }
+    },
+    "WMT": {
+        "COMBO 2: [3EMA + MACD Zero-Cross]": {
+            "Dati_Configurazione": {
+                "tipo_file": "hybrid_3ema_macdz",
+                "params_a": [
+                    [
+                        4,
+                        20,
+                        205
+                    ],
+                    [
+                        4,
+                        20,
+                        225
+                    ],
+                    [
+                        8,
+                        28,
+                        195
+                    ]
+                ],
+                "params_b": [
+                    [
+                        10,
+                        20,
+                        70
+                    ],
+                    [
+                        10,
+                        20,
+                        55
+                    ]
+                ]
+            },
+            "Cluster": "equities_cfd",
+            "Sharpe_IS_Approvato": 0.7964276900827992,
+            "Sharpe_OOS_Approvato": 1.185601280162668,
+            "CAGR_OOS_Approvato": 0.1925541396479442,
+            "MaxDD_OOS_Approvato": -0.16401203709658763
+        }
+    },
+    "XCUUSD": {
+        "COMBO 2: [3EMA + MACD Zero-Cross]": {
+            "Dati_Configurazione": {
+                "tipo_file": "hybrid_3ema_macdz",
+                "params_a": [
+                    [
+                        4,
+                        92,
+                        195
+                    ],
+                    [
+                        4,
+                        88,
+                        165
+                    ],
+                    [
+                        4,
+                        88,
+                        115
+                    ]
+                ],
+                "params_b": [
+                    [
+                        20,
+                        36,
+                        5
+                    ],
+                    [
+                        4,
+                        16,
+                        15
+                    ]
+                ]
+            },
+            "Cluster": "metals_cfd",
+            "Sharpe_IS_Approvato": 1.9297034994524387,
+            "Sharpe_OOS_Approvato": 1.3581697711217775,
+            "CAGR_OOS_Approvato": 0.21496570988625519,
+            "MaxDD_OOS_Approvato": -0.061656574350751565
+        }
+    },
+    "XLMUSD": {
+        "MACD Normale (Top2)": {
+            "Dati_Configurazione": {
+                "tipo_file": "macd_normale",
+                "params": [
+                    [
+                        6,
+                        96,
+                        5
+                    ],
+                    [
+                        6,
+                        48,
+                        5
+                    ]
+                ]
+            },
+            "Cluster": "crypto_cfd",
+            "Sharpe_IS_Approvato": 0.98822315365655,
+            "Sharpe_OOS_Approvato": 1.005651235687385,
+            "CAGR_OOS_Approvato": 0.6470588861853419,
+            "MaxDD_OOS_Approvato": -0.49613026357235473
+        }
+    }
+}
